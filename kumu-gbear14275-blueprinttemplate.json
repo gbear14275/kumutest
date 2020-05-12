@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "name": "blueprinttemplate",
+  "description": "",
+  "proxyImages": true,
+  "defaultMap": "map-g93kWIEN",
+  "defaultPerspective": null,
+  "attributeRelevance": {},
+  "attributes": [
+    {
+      "_id": "attr-5bmbEKVb",
+      "name": "Connection Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-2u3Jgmtv",
+      "name": "Description",
+      "format": "text",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "none",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-7F7vRDI3",
+      "name": "Element Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-TxDeTbj4",
+      "name": "Label",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-DAFjiMEx",
+      "name": "Loop Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-0mpOiUGO",
+      "name": "Tags",
+      "format": "string",
+      "private": false,
+      "limit": "none",
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    }
+  ],
+  "elements": [],
+  "connections": [],
+  "loops": [],
+  "maps": [
+    {
+      "_id": "map-g93kWIEN",
+      "name": "Add map name",
+      "description": "",
+      "scale": 1,
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "defaultPerspective": "pers-RkBF5MCC",
+      "defaultElementBehavior": "floating",
+      "defaultConnectionDirection": "undirected",
+      "elements": [],
+      "connections": [],
+      "loops": []
+    }
+  ],
+  "perspectives": [
+    {
+      "_id": "pers-RkBF5MCC",
+      "name": "Add map name",
+      "style": "@settings {\n  template: sna;\n}\n\n"
+    }
+  ]
+}
